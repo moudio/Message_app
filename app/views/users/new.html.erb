@@ -1,0 +1,21 @@
+<h2 class="ui icon header center aligned">
+  <i class="settings icon orange"></i>
+  <div class="content">
+Create account
+  </div>
+</h2>
+<%= form_for(:user, html: {class: "ui form", role:"form"}, url: signup_path) do |f|  %>
+  <div class="field">
+    <%= f.label :username, "Username" %>
+    <%= f.text_field :username, placeholder: "Username" %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Password" %>
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "Password confirmation" %>
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <%= f.submit "Create Account", class:"ui primary button" %>
+<% end %>
