@@ -95,4 +95,4 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   config.web_socket_server_url = "wss://gentle-scrubland-73614.herokuapp.com/cable"
 
-endconfig.action_cable.allowed_request_origins = ['https://gentle-scrubland-73614.herokuapp.com', 'http://gentle-scrubland-73614.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://gentle-scrubland-73614.herokuapp.com', 'http://gentle-scrubland-73614.herokuapp.com']
