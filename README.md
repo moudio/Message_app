@@ -2,7 +2,7 @@
 
 > A messaging app where users can connect online and communicate freely
 
-![screenshot](./app/assets/images/app_screenshot.png)
+![screenshot](./app/assets/images/screenshot.png)
 
 
 ## Built With
