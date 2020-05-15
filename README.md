@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://myalphamo.herokuapp.com/)
+[Live Demo Link](https://the-message-me.herokuapp.com/)
 
 
 ## Author
