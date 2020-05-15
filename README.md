@@ -1,4 +1,4 @@
-# Alpha Blog
+# Message Me App
 
 > A messaging app where users can connect online and communicate freely
 
